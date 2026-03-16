@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-dotenv
+httpx
+pydantic
+sqlalchemy
+psycopg2-binary
+pgvector
+passlib[bcrypt]
+sentence-transformers

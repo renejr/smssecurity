@@ -65,10 +65,13 @@ O aplicativo opera em modelo **Freemium** com estratégia de monetização híbr
 *   `lib/core/`: Serviços globais (IA, Banco de Dados, Isolate, Notificações, AdMob, Logs).
 *   `lib/features/`: Módulos funcionais (Análise, Histórico, Configurações, Paywall).
 *   `assets/models/`: Modelos TFLite e vocabulários.
+*   `backend/`: Código do servidor Python (FastAPI/PostgreSQL) para orquestração global.
 
 ---
 
 ## 🔧 Instalação e Execução
+
+### 📱 Aplicativo (Flutter)
 
 1.  **Pré-requisitos**:
     *   Flutter SDK instalado.
@@ -88,6 +91,32 @@ O aplicativo opera em modelo **Freemium** com estratégia de monetização híbr
     flutter run
     ```
     *   *Nota*: Para testar anúncios reais, gere a build de release: `flutter build apk`.
+
+### 🖥️ Backend (Python)
+
+O servidor de backend está localizado na pasta `backend/`.
+
+1.  **Configuração Automática (Windows)**:
+    Execute o script `setup.bat` na pasta `backend`. Ele criará o ambiente virtual e instalará as dependências.
+    ```cmd
+    cd backend
+    setup.bat
+    ```
+
+2.  **Configuração Manual (Linux/Mac)**:
+    ```bash
+    cd backend
+    python3 -m venv venv
+    source venv/bin/activate
+    pip install -r requirements.txt
+    ```
+
+3.  **Executar Servidor**:
+    ```bash
+    # Com venv ativado:
+    python main.py
+    ```
+    *O servidor rodará em `http://localhost:8000` (ou porta configurada).*
 
 ## 🛡️ Permissões
 
