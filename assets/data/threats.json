@@ -1,0 +1,182 @@
+[
+  {
+    "text": "AGENDAMENTO PIX: Ola, um agendamento de R$ 1.250,00 foi realizado com sucesso. Se nao reconhece esta operacao, cancele agora em: https://pix-seguro-br.com",
+    "threatCategory": "Golpe do PIX",
+    "riskScore": 0.98,
+    "reasoning": "Uso de link externo para 'cancelamento' de transação inexistente, tática comum de phishing."
+  },
+  {
+    "text": "SANTANDER: Voce realizou uma transferencia de R$ 2.490,00. Caso nao reconheca, ligue agora para a central de seguranca: 0800-555-0123.",
+    "threatCategory": "Falsa Central",
+    "riskScore": 0.95,
+    "reasoning": "Indução a ligar para um número 0800 falso para capturar dados sensíveis via engenharia social."
+  },
+  {
+    "text": "CORREIOS: Seu objeto BR92348102X foi retido na alfandega. Necessario pagamento de taxa para liberacao. Acesse: bit.ly/correios-taxa-br",
+    "threatCategory": "Golpe da Entrega",
+    "riskScore": 0.92,
+    "reasoning": "Falsa cobrança de taxa alfandegária usando encurtador de link suspeito."
+  },
+  {
+    "text": "BRADESCO: Dispositivo NAO cadastrado. Sua conta sera bloqueada em 2h para sua seguranca. Evite o bloqueio em: https://bradesco-mobile.net",
+    "threatCategory": "Phishing Bancário",
+    "riskScore": 0.97,
+    "reasoning": "Criação de senso de urgência (bloqueio em 2h) para forçar o clique em link malicioso."
+  },
+  {
+    "text": "GOVERNO: Voce possui R$ 3.840,00 disponiveis para saque imediato do FGTS. Resgate seu valor aqui: https://meu-fgts-gov.com",
+    "threatCategory": "Fraude FGTS",
+    "riskScore": 0.94,
+    "reasoning": "Promessa de valores a receber do governo, técnica usada para roubo de CPF e dados do Gov.br."
+  },
+  {
+    "text": "Ola, sou do RH do TikTok. Temos vagas de meio periodo para trabalhar de casa ganhando ate R$ 800 por dia. Info no WhatsApp: wa.me/5511999999999",
+    "threatCategory": "Falsa Vaga Emprego",
+    "riskScore": 0.88,
+    "reasoning": "Promessa de ganho fácil e rápido com redirecionamento para WhatsApp de golpistas."
+  },
+  {
+    "text": "RECEITA FEDERAL: Identificamos irregularidades no seu CPF. Para evitar multa e cancelamento, regularize agora em: https://receita-regulariza.org",
+    "threatCategory": "Phishing Governamental",
+    "riskScore": 0.96,
+    "reasoning": "Uso de autoridade (Receita Federal) e ameaça (multa) para induzir o usuário ao erro."
+  },
+  {
+    "text": "NETFLIX: Sua assinatura foi suspensa por falta de pagamento. Atualize seus dados para continuar assistindo: https://netflix-pagamentos.com",
+    "threatCategory": "Roubo de Assinatura",
+    "riskScore": 0.85,
+    "reasoning": "Notificação falsa de suspensão de serviço de streaming para capturar dados de cartão de crédito."
+  },
+  {
+    "text": "CAIXA: Prezado cliente, voce tem um emprestimo pre-aprovado de R$ 15.000,00. Contrate agora sem burocracia: bit.ly/caixa-credito-facil",
+    "threatCategory": "Falso Empréstimo",
+    "riskScore": 0.89,
+    "reasoning": "Oferta de crédito facilitado com link encurtado, visando depósito antecipado de 'taxas'."
+  },
+  {
+    "text": "NUBANK: Compra aprovada no valor de R$ 3.500,00 nas Casas Bahia. Se nao foi voce, digite 1 ou acesse: https://nubank-seguranca.co",
+    "threatCategory": "Falsa Compra",
+    "riskScore": 0.93,
+    "reasoning": "Alerta falso de compra de alto valor para gerar pânico e clique imediato."
+  },
+  {
+    "text": "MAGALU: Seu pedido foi entregue com sucesso! Nao recebeu? Reclame aqui: https://magalu-atendimento.com",
+    "threatCategory": "Phishing Varejo",
+    "riskScore": 0.82,
+    "reasoning": "Falsa confirmação de entrega para capturar login e senha de marketplaces."
+  },
+  {
+    "text": "PARABENS! Voce foi selecionado para receber um Pix de R$ 500 agora. Resgate seu premio no link: https://pix-premiado.me",
+    "threatCategory": "Prêmio Falso",
+    "riskScore": 0.91,
+    "reasoning": "Isca de prêmio em dinheiro (Pix) para induzir o compartilhamento de dados ou download de malware."
+  },
+  {
+    "text": "SERASA: Voce tem uma divida de R$ 2.450,00 que pode ser quitada por R$ 99,00 hoje. Veja o boleto: https://serasa-limpa-nome.net",
+    "threatCategory": "Fraude Financeira",
+    "riskScore": 0.87,
+    "reasoning": "Oferta de quitação de dívida com desconto irreal via site clonado."
+  },
+  {
+    "text": "ITAU: Atualizacao obrigatoria do seu iToken para evitar o bloqueio da conta. Faca agora: itau-atualiza.com",
+    "threatCategory": "Phishing Bancário",
+    "riskScore": 0.96,
+    "reasoning": "Engenharia social focada em 'atualização de segurança' para roubar o token do banco."
+  },
+  {
+    "text": "ALERTA: Tentativa de login em Sao Paulo/SP. Se nao foi voce, bloqueie o acesso agora: https://conta-segura.app",
+    "threatCategory": "Roubo de Conta",
+    "riskScore": 0.90,
+    "reasoning": "Aviso falso de invasão de conta para capturar credenciais de acesso."
+  },
+  {
+    "text": "AMAZON: Ganhe dinheiro avaliando produtos! Pagamos ate R$ 20 por avaliacao. Comece agora no link: https://vagas-amazon.work",
+    "threatCategory": "Falsa Vaga Emprego",
+    "riskScore": 0.86,
+    "reasoning": "Esquema de pirâmide ou tarefas falsas usando o nome de grandes empresas."
+  },
+  {
+    "text": "VIVO: Voce tem 50GB de bonus disponiveis. Ative agora gratuitamente pelo app: https://vivo-bonus.info",
+    "threatCategory": "Phishing Telecom",
+    "riskScore": 0.83,
+    "reasoning": "Oferta de bônus inexistente para coletar números de telefone e dados pessoais."
+  },
+  {
+    "text": "URGENTE: Sua CNH possui processo de suspensao ativo. Verifique os detalhes e recorra em: https://detran-notifica.com",
+    "threatCategory": "Fraude Detran",
+    "riskScore": 0.94,
+    "reasoning": "Ameaça de suspensão de documento oficial para induzir pagamento de taxas falsas."
+  },
+  {
+    "text": "MERCADO LIVRE: Sua conta sera suspensa por violacao das regras. Verifique sua identidade para evitar: https://ml-seguranca.top",
+    "threatCategory": "Roubo de Conta",
+    "riskScore": 0.92,
+    "reasoning": "Ameaça de suspensão de conta em plataforma de e-commerce."
+  },
+  {
+    "text": "IPVA 2026: Pague agora com 50% de desconto via Pix. Oferta por tempo limitado: https://ipva-desconto-gov.com",
+    "threatCategory": "Golpe do Imposto",
+    "riskScore": 0.95,
+    "reasoning": "Falso desconto em imposto obrigatório visando pagamento via Pix para golpistas."
+  },
+  {
+    "text": "P1X: Recebemos um comprovant3 de env1o no val0r d3 R$ 450,00. Confirme seus dad0s par4 receber: link-falso.com",
+    "threatCategory": "Golpe do PIX",
+    "riskScore": 0.98,
+    "reasoning": "Uso de 'leetspeak' (troca de letras por números) para tentar burlar filtros de texto simples."
+  },
+  {
+    "text": "B.A.N.C.O.B.R.A.S.I.L: Pendencia financeira identificada. Regularize pelo canal digital: https://bb-regulariza.net",
+    "threatCategory": "Phishing Bancário",
+    "riskScore": 0.94,
+    "reasoning": "Uso de pontuação excessiva no nome da instituição para confundir algoritmos de busca."
+  },
+  {
+    "text": "Sua chave PIX foi cadastrada em outro banco. Se nao foi voce, cancele agora clicando aqui: https://cancela-pix.info",
+    "threatCategory": "Golpe do PIX",
+    "riskScore": 0.97,
+    "reasoning": "Exploração do medo de portabilidade de chave PIX indevida."
+  },
+  {
+    "text": "REVISAO DA VIDA TODA: Voce tem direito ao aumento na sua aposentadoria. Veja o valor liberado: https://inss-revisao.com",
+    "threatCategory": "Fraude Previdenciária",
+    "riskScore": 0.89,
+    "reasoning": "Isca focada em aposentados usando termos jurídicos atuais."
+  },
+  {
+    "text": "AVISO: Voce possui pontos que expiram hoje no programa de fidelidade. Troque por dinheiro agora: https://pontos-expira.com",
+    "threatCategory": "Roubo de Pontos",
+    "riskScore": 0.88,
+    "reasoning": "Falsa expiração de pontos/milhas para capturar logins de programas de fidelidade."
+  },
+  {
+    "text": "ESTORNO: Sua solicitacao de estorno de R$ 890,00 foi negada. Veja o motivo e conteste: https://estorno-app.com",
+    "threatCategory": "Fraude Financeira",
+    "riskScore": 0.91,
+    "reasoning": "Uso de termo 'estorno' para despertar curiosidade ou preocupação financeira."
+  },
+  {
+    "text": "MINISTERIO DA SAUDE: Sua dose de reforco esta agendada. Confirme o local e horario no link: https://saude-gov-br.info",
+    "threatCategory": "Phishing Governamental",
+    "riskScore": 0.84,
+    "reasoning": "Uso de temas de saúde pública para coleta de dados cadastrais."
+  },
+  {
+    "text": "CONTA BLOQUEADA: Detectamos acesso suspeito. Recupere sua senha agora seguindo os passos: https://seguranca-digital.co",
+    "threatCategory": "Roubo de Conta",
+    "riskScore": 0.93,
+    "reasoning": "Alerta genérico de segurança para captura de senhas diversas."
+  },
+  {
+    "text": "UNIFICAÇÃO DE DÉBITOS: Limpe seu nome hoje com parcelas de R$ 49,90. Consultamos seu CPF: https://nome-limpo.net",
+    "threatCategory": "Fraude Financeira",
+    "riskScore": 0.86,
+    "reasoning": "Promessa de regularização de crédito facilitada visando taxas de serviço falsas."
+  },
+  {
+    "text": "INFO: Seu cartao de credito foi clonado. Bloqueie agora pelo portal de seguranca: https://cartao-seguro.me",
+    "threatCategory": "Phishing Bancário",
+    "riskScore": 0.95,
+    "reasoning": "Geração de pânico extremo (cartão clonado) para obter dados do cartão físico."
+  }
+]

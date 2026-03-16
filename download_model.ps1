@@ -1,0 +1,1 @@
+$url = "https://raw.githubusercontent.com/vinesmsuic/MobileBERT-TFLite/master/mobilebert_int8.tflite"; [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; Invoke-WebRequest -Uri $url -OutFile "assets/models/bert_tiny.tflite"

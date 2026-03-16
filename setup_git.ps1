@@ -1,0 +1,1 @@
+Write-Host "Instalando Git..."; winget install --id Git.Git -e --source winget --accept-source-agreements --accept-package-agreements; Write-Host "Configurando repositório..."; git init; git add .; git commit -m "Initial commit"
